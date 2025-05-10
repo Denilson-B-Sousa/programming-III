@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38ffe49f-169d-4528-a3ab-6862e08370c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista01/Exercicio01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista01/Exercicio02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista01/Exercicio03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista01/Exercicio04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista01/Exercicio05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista01/Exercicio06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista02/EquacaoSegundoGrau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista02/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista02/exceptions/EntradaInvalida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista02/exceptions/SolucaoNaoReal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista01/Ex01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,31 +40,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Exercice03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercicio03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercicio04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercicio05.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercicio06.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercise01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercise02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Exercise03.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Exercice03.executor": "Run",
+    "Application.Exercicio03.executor": "Run",
+    "Application.Exercicio04.executor": "Run",
+    "Application.Exercicio05.executor": "Run",
+    "Application.Exercicio06.executor": "Run",
+    "Application.Exercise01.executor": "Run",
+    "Application.Exercise02.executor": "Run",
+    "Application.Exercise03.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/20241080080010/Documents/Repositorios/programming-III",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Exercicio03">
+}]]></component>
+  <component name="RunManager" selected="Application.lista02.Teste">
     <configuration name="Exercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista01.Exercicio01" />
       <module name="programming-III" />
@@ -84,19 +81,6 @@
     </configuration>
     <configuration name="Exercicio03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista01.Exercicio03" />
-      <module name="programming-III" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercicio04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista01.Exercicio04" />
       <module name="programming-III" />
       <extension name="coverage">
         <pattern>
@@ -134,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lista02.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista02.Teste" />
+      <module name="programming-III" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista02.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lista02.Teste" />
         <item itemvalue="Application.Exercicio03" />
         <item itemvalue="Application.Exercicio01" />
         <item itemvalue="Application.Exercicio06" />
         <item itemvalue="Application.Exercicio05" />
-        <item itemvalue="Application.Exercicio04" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +161,7 @@
       <workItem from="1744410922697" duration="5939000" />
       <workItem from="1744549751281" duration="4554000" />
       <workItem from="1744554366204" duration="332000" />
+      <workItem from="1746830101261" duration="4957000" />
     </task>
     <servers />
   </component>
