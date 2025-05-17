@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38ffe49f-169d-4528-a3ab-6862e08370c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lista02/EquacaoSegundoGrau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista02/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista02/exceptions/EntradaInvalida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista02/exceptions/SolucaoNaoReal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotations/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotations/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotations/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotations/Servidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotations/Tecnico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotations/annotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programming-III.iml" beforeDir="false" afterPath="$PROJECT_DIR$/programming-III.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -40,32 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Exercice03.executor": "Run",
-    "Application.Exercicio03.executor": "Run",
-    "Application.Exercicio04.executor": "Run",
-    "Application.Exercicio05.executor": "Run",
-    "Application.Exercicio06.executor": "Run",
-    "Application.Exercise01.executor": "Run",
-    "Application.Exercise02.executor": "Run",
-    "Application.Exercise03.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/20241080080010/Documents/Repositorios/programming-III",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Exercice03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio06.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercise01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercise02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercise03.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/20241080080010/Documents/programming-III&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Lombok&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.lista02.Teste">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Exercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista01.Exercicio01" />
       <module name="programming-III" />
@@ -92,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista01.Exercicio05" />
+    <configuration name="Exercicio06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista01.Exercicio06" />
       <module name="programming-III" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista01.Exercicio06" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotations.Main" />
       <module name="programming-III" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista01.*" />
+          <option name="PATTERN" value="annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.lista02.Teste" />
         <item itemvalue="Application.Exercicio03" />
         <item itemvalue="Application.Exercicio01" />
         <item itemvalue="Application.Exercicio06" />
-        <item itemvalue="Application.Exercicio05" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +173,10 @@
       <workItem from="1744549751281" duration="4554000" />
       <workItem from="1744554366204" duration="332000" />
       <workItem from="1746830101261" duration="4957000" />
+      <workItem from="1747433963769" duration="4355000" />
+      <workItem from="1747440426664" duration="804000" />
+      <workItem from="1747441254633" duration="74000" />
+      <workItem from="1747441341801" duration="590000" />
     </task>
     <servers />
   </component>
@@ -178,5 +193,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
